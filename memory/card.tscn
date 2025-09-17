@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://jp81sry7j4u3"]
+
+[ext_resource type="Script" uid="uid://wvhof57cypco" path="res://card.gd" id="1_rjlel"]
+
+[node name="Card" type="TextureRect"]
+offset_right = 766.0
+offset_bottom = 2300.0
+size_flags_vertical = 3
+script = ExtResource("1_rjlel")
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]
